@@ -1,0 +1,60 @@
+.navbar{
+  background: #8ec9bf93;
+}
+.navbar-brand{
+ 
+  background: #07A189;
+  width: 7rem;
+  font-weight: bold;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+    }
+ 
+
+.imgHead{
+width: 20%;
+}
+
+.profileImg{
+    width:40% ;
+    height: auto;
+  
+  }
+.badge{
+  position: relative;
+  top: -8px;
+  background: red;
+  width: 15px;
+  height: 15px;
+  font-size: -2px;
+  border-radius: 50%;
+}
+
+
+
+
+  @media (min-width: 768px) and (max-width: 1400px) {
+    .rightNavabr{
+      position: relative;
+      float: right;
+      right: -70px;
+      top: 7px;
+    }
+    .imgsection{
+      position: relative;
+      top: -5px;
+      right: -10px;
+    }
+    .searchBar{
+      position: relative;
+  left: 5rem;
+
+    }
+    .navbar-brand{
+  position: relative;
+  left: 4rem;
+    }
+  }
+  

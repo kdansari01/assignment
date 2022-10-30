@@ -1,0 +1,38 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background: rgb(240, 239, 239);
+    color: #07A189;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #fafbfd;
+  }
+
+
+  @media (min-width:300px) and (max-width:1400px) {
+    .formControl{
+      position: relative;
+      top:-120px;
+    }
+  }
+  /* @media (min-width:300) and (max-width:615px) {
+    .formControl{
+      position: relative;
+      top:-10rem;
+      left: -10px;
+    }
+  }
+  */
+  
