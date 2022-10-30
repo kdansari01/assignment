@@ -31,6 +31,8 @@ const SearchProject = () => {
       <div className="projectTabel ">
         <Pagination />
       </div>
+      <Footer/>
+
     </div>
   );
 };

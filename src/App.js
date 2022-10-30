@@ -4,7 +4,6 @@ import SearchProject from "./pages/searchProject/SearchProject";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PostProject from "./pages/postProject/PostProject";
 import ProfilePage from "./pages/profilePage/ProfilePage";
-import Footer from "./component/footer/Footer";
 // import Footer from "./component/footer/Footer";
 // import Modal from "./pages/searchProject/Modal";
 function App() {

@@ -2,8 +2,9 @@ import React from "react";
 
 const Dropdown = () => {
   return (
-    <div className="bg-light container-fluid justify-content-center row d-flex  justify-content-center">
-        <div className="col-lg-2 col-md-3 col-4 ">
+    <div className="d-lg-block d-xl-block d-sm-none d-md-block d-none ">
+    <div className="bg-light container-fluid justify-content-center row d-flex  justify-content-center ">
+        <div className="col-lg-2 col-md-3 col-4 d-lg-block d-xl-block d-sm-none d-md-block">
         <h5>Category</h5>
         <div className="dropdown ">
           <button
@@ -34,7 +35,7 @@ const Dropdown = () => {
           </ul>
         </div>
       </div>
-      <div className="col-lg-2 col-md-3 col-4">
+      <div className="col-lg-2 col-md-3 col-4 d-lg-block d-xl-block d-sm-none d-md-block">
         <h5>Sub Category</h5>
         <div className="dropdown ">
           <button
@@ -65,7 +66,7 @@ const Dropdown = () => {
           </ul>
         </div>
       </div>
-      <div className="col-lg-2 col-md-3 col-4">
+      <div className="col-lg-2 col-md-3 col-4 d-lg-block d-xl-block d-sm-none d-md-block">
         <h5>Delivery Time</h5>
         <div className="dropdown ">
           <button
@@ -96,7 +97,7 @@ const Dropdown = () => {
           </ul>
         </div>
       </div>
-      <div className="col-lg-2 col-md-3 col-4">
+      <div className="col-lg-2 col-md-3 col-4 d-lg-block d-xl-block d-sm-none d-md-block">
         <h5>Country</h5>
         <div className="dropdown ">
           <button
@@ -127,7 +128,7 @@ const Dropdown = () => {
           </ul>
         </div>
       </div>
-      <div className="col-lg-2 col-md-3 col-4">
+      <div className="col-lg-2 col-md-3 col-4 d-lg-block d-xl-block d-sm-none d-md-block">
         <h5>Post Day</h5>
         <div className="dropdown ">
           <button
@@ -158,7 +159,7 @@ const Dropdown = () => {
           </ul>
         </div>
       </div>
-      <div className="col-lg-2 col-md-3 col-4">
+      <div className="col-lg-2 col-md-3 col-4 d-lg-block d-xl-block d-sm-none d-md-block">
         <h5>Pricing</h5>
         <div className="dropdown ">
           <button
@@ -189,6 +190,7 @@ const Dropdown = () => {
           </ul>
         </div>
       </div>
+    </div>
     </div>
   );
 };

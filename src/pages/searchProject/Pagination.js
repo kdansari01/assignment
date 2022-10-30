@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import "./style.css"
 import Modal from "./Modal";
+import Card from "./Card";
 
 const Pagination = () => {
   // const [currentPage,setCurrentPage]=useState(1)
@@ -35,8 +36,10 @@ const Pagination = () => {
 
    
     <div className="row col-12  d-flex justify-content-center mb-4 p-sm-4 "> 
-      <table className="col-lg-8 col-md-10 col-8 p-4">
-       
+
+    <Card post={posts} className=""/>
+      <table className="col-lg-8 col-md-10 col-8 p-4 d-lg-block d-xl-block d-sm-none d-md-none d-none">
+
           <tr className="" >
             {headers.map((ele, index) => (
               <th key={index}>{ele}</th>
