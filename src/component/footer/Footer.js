@@ -10,7 +10,7 @@ const Footer = () => {
                 <h1 className='logo1  text-center'>
                     Logo
                 </h1>
-                <div><p>1901 Thornridge Cir. Shiloh, Hawaii 81063</p></div>
+                <div><p>1901 Thornridge Cir.<br/> Shiloh, Hawaii <br/>81063</p></div>
             </div>
             <div className="company col-lg-2 col-md-4 col-4">
                 <h3>Company</h3>
@@ -35,9 +35,9 @@ const Footer = () => {
             </div>
             <div className='social col-lg-2 col-md-4 col-4'>
                 <h3>Follow Us</h3>
-                <Twitter/>
-                <Facebook/>
-                <Instagram/>
+                <Twitter />
+                <Facebook />
+                <Instagram />
             </div>
 
         </div>

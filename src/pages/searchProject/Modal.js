@@ -1,11 +1,11 @@
 import { TextField } from '@mui/material'
 import React from 'react'
-
+import EditIcon from '@mui/icons-material/Edit';
 const Modal = () => {
   return (
     <div>
-<button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Send Offer
+<button type="button" className="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <EditIcon/> Manage
 </button>
 
 <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

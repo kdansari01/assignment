@@ -11,7 +11,7 @@ const SearchProject = () => {
       <div className="">
       <HeroBackground title={"Search Project"} />
        
-        <div className="d-flex justify-content-center">
+        {/* <div className="d-flex justify-content-center">
           <form className="formControl d-flex " role="search">
             <TextField
               className="form-control col-lg-12 col-md-8  "
@@ -23,14 +23,14 @@ const SearchProject = () => {
               Search
             </Button>
           </form>
-        </div>
+        </div> */}
       </div>
-       <div className="">
+       {/* <div className="">
        <Dropdown/> 
         </div>
       <div className="projectTabel ">
         <Pagination />
-      </div>
+      </div> */}
       <Footer/>
 
     </div>

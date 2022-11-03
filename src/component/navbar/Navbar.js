@@ -4,7 +4,11 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import Profile from "../../assests/image/profile.png"
 import { NavLink } from "react-router-dom";
+import SearchIcon from '@mui/icons-material/Search';
 const Navbar = () => {
+
+
+ 
   return (
       <nav className="navbar navbar-expand-lg  ">
         <div className="container-fluid d-flex justify-content-around px-4">
@@ -23,15 +27,15 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse flex-grow-2 " id="navbarSupportedContent">
-          <form className="searchBar d-flex m-sm-2 mt-4 px-lg-5" role="search">
+          <form className="searchBarSection d-flex m-sm-2 mt-4 " role="search">
               <input
-                className="form-control me-2"
+                className="searchInput  me-2"
                 type="search"
-                placeholder="Search"
+                placeholder="What are you looking here eg. freelancer, projects"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
-                Search
+              <button className="searchButton " type="submit">
+                <SearchIcon  className=" text-light" />
               </button>
             </form>
             <div className="rightNavabr" >
@@ -49,14 +53,14 @@ const Navbar = () => {
               <li className="nav-item">
               <NavLink className="nav-link " to="/">
 
-               <ChatBubbleOutlineIcon />
+               <ChatBubbleOutlineIcon className="badgeIcon"  fontSize="30"/>
                <span className="badge">.</span>
                </NavLink>
 
               </li>
               <li className="nav-item">
               <NavLink className="nav-link" to="/">
-                <FavoriteBorderIcon/>
+                <FavoriteBorderIcon className="badgeIcon" fontSize="30" />
                <span className="badge">.</span>
                 </NavLink>
 
@@ -72,42 +76,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-//     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-//     <div className="container-fluid">
-//     <div className="container-fluid d-flex justify-content-around">
-//       <a className="navbar-brand" href="/">
-//         Logo
-//       </a>
-//       <button
-//         className="navbar-toggler"
-//         type="button"
-//         data-bs-toggle="collapse"
-//         data-bs-target="#navbarSupportedContent"      
-//         aria-controls="navbarSupportedContent"
-//         aria-expanded="false"
-//             aria-label="Toggle navigation"
-//       >
-//         <span className="navbar-toggler-icon"></span>
-//          </button>
-//         </div>
-//         <div className="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-//             <ul className="navbar-nav ms-auto flex-nowrap">
-//                 <li className="nav-item">
-//                     <a href="/" className="nav-link m-2 menu-item nav-active">Our Solution</a>
-//                 </li>
-//                 <li className="nav-item">
-//                     <a href="/" className="nav-link m-2 menu-item">How We Help</a>
-//                 </li>
-//                 <li className="nav-item">
-//                     <a href="/" className="nav-link m-2 menu-item">Blog</a>
-//                 </li>
-//                 <li className="nav-item">
-//                     <a href="/" className="nav-link m-2 menu-item">Contact</a>
-//                 </li>
-//             </ul>
-//         </div>
-//     </div>
-// </nav>
   );
 };
 

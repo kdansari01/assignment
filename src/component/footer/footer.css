@@ -1,9 +1,17 @@
+.logo{
+    justify-content: center;
+}
+
 .logo1{
     background: #07A189;
     border-radius: 15px;
-    width: 50%;
+    width: 46%;
+    height: 31%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     color: white;
-    height: 35%;
 }
 .footer{
     background: #FBFBFB;
