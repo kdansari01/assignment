@@ -1,8 +1,8 @@
 import React from "react";
-import Pagination from "./Pagination";
-import { Button, TextField } from "@mui/material";
+// import Pagination from "./Pagination";
+// import { Button, TextField } from "@mui/material";
 import { HeroBackground } from "../../component/hero/HeroBackground";
-import Dropdown  from "./Dropdown";
+// import Dropdown  from "./Dropdown";
 import Footer from "../../component/footer/Footer";
 
 const SearchProject = () => {

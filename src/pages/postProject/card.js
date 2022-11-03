@@ -6,7 +6,7 @@ const PostCard = () => {
   return (
     <div className="d-lg-none d-xl-none d-sm-block d-md-none">
       <div className="row">
-        <div className="card">
+        <div className="card p-4">
           <div className="card-body">
             <div className="d-flex justify-content-between ">
               <p className="card-subtitle mb-2 text-muted">
